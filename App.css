@@ -1,0 +1,20 @@
+header{
+  font-size: 14px;
+  padding: 15px 10px;
+  background-color: antiquewhite;
+  color: black;
+  letter-spacing: normal;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo-item{
+  width:70%;
+}
+
+#logo{
+  
+  height: 93px;
+  border-radius: 50%;
+}

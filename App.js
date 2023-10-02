@@ -1,17 +1,21 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
 import './videodata.css';
 import GalleryData from './GalleryData';
+
+
 
 function App() {
   return(
     <div>
       <header>
-      <a>All</a>
-      <a>Music</a>
-      <a>Home</a>
-      <a>Videos</a>
-      <a>Playlist</a>
+      <a href="All">All</a>
+      <a href="Music">Music</a>
+      <a href="Mixes">Mixes</a>
+      <a href="Live">Live</a>
+      <a href="Bollywood">Bollywood</a>
+      <a href="Playlist">Playlist</a>
+      <a href="Videos">Videos</a>
       </header>
 
       <div className="logo-item">
